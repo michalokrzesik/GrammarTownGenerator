@@ -1,0 +1,1013 @@
+{
+  "$id": "1",
+  "type": "town",
+  "parameters": [],
+  "relations": [
+    {
+      "$id": "2",
+      "type": "water",
+      "verb": null,
+      "parent": {
+        "$ref": "1"
+      },
+      "child": {
+        "$id": "3",
+        "type": "water_area",
+        "parameters": [
+          {
+            "$id": "4",
+            "name": "point0x",
+            "value": "0"
+          },
+          {
+            "$id": "5",
+            "name": "point0y",
+            "value": "300"
+          },
+          {
+            "$id": "6",
+            "name": "point1x",
+            "value": "149"
+          },
+          {
+            "$id": "7",
+            "name": "point1y",
+            "value": "254"
+          },
+          {
+            "$id": "8",
+            "name": "point2x",
+            "value": "160"
+          },
+          {
+            "$id": "9",
+            "name": "point2y",
+            "value": "340"
+          },
+          {
+            "$id": "10",
+            "name": "point3x",
+            "value": "0"
+          },
+          {
+            "$id": "11",
+            "name": "point3y",
+            "value": "370"
+          }
+        ],
+        "relations": [
+          {
+            "$ref": "2"
+          }
+        ]
+      }
+    },
+    {
+      "$id": "12",
+      "type": "water",
+      "verb": null,
+      "parent": {
+        "$ref": "1"
+      },
+      "child": {
+        "$id": "13",
+        "type": "water_area",
+        "parameters": [
+          {
+            "$id": "14",
+            "name": "point0x",
+            "value": "149"
+          },
+          {
+            "$id": "15",
+            "name": "point0y",
+            "value": "254"
+          },
+          {
+            "$id": "16",
+            "name": "point1x",
+            "value": "277"
+          },
+          {
+            "$id": "17",
+            "name": "point1y",
+            "value": "242"
+          },
+          {
+            "$id": "18",
+            "name": "point2x",
+            "value": "285"
+          },
+          {
+            "$id": "19",
+            "name": "point2y",
+            "value": "330"
+          },
+          {
+            "$id": "20",
+            "name": "point3x",
+            "value": "160"
+          },
+          {
+            "$id": "21",
+            "name": "point3y",
+            "value": "340"
+          }
+        ],
+        "relations": [
+          {
+            "$ref": "12"
+          }
+        ]
+      }
+    },
+    {
+      "$id": "22",
+      "type": "water",
+      "verb": null,
+      "parent": {
+        "$ref": "1"
+      },
+      "child": {
+        "$id": "23",
+        "type": "water_area",
+        "parameters": [
+          {
+            "$id": "24",
+            "name": "point0x",
+            "value": "277"
+          },
+          {
+            "$id": "25",
+            "name": "point0y",
+            "value": "242"
+          },
+          {
+            "$id": "26",
+            "name": "point1x",
+            "value": "408"
+          },
+          {
+            "$id": "27",
+            "name": "point1y",
+            "value": "232"
+          },
+          {
+            "$id": "28",
+            "name": "point2x",
+            "value": "420"
+          },
+          {
+            "$id": "29",
+            "name": "point2y",
+            "value": "320"
+          },
+          {
+            "$id": "30",
+            "name": "point3x",
+            "value": "285"
+          },
+          {
+            "$id": "31",
+            "name": "point3y",
+            "value": "330"
+          }
+        ],
+        "relations": [
+          {
+            "$ref": "22"
+          }
+        ]
+      }
+    },
+    {
+      "$id": "32",
+      "type": "water",
+      "verb": null,
+      "parent": {
+        "$ref": "1"
+      },
+      "child": {
+        "$id": "33",
+        "type": "water_area",
+        "parameters": [
+          {
+            "$id": "34",
+            "name": "point0x",
+            "value": "408"
+          },
+          {
+            "$id": "35",
+            "name": "point0y",
+            "value": "232"
+          },
+          {
+            "$id": "36",
+            "name": "point1x",
+            "value": "518"
+          },
+          {
+            "$id": "37",
+            "name": "point1y",
+            "value": "179"
+          },
+          {
+            "$id": "38",
+            "name": "point2x",
+            "value": "497"
+          },
+          {
+            "$id": "39",
+            "name": "point2y",
+            "value": "282"
+          },
+          {
+            "$id": "40",
+            "name": "point3x",
+            "value": "420"
+          },
+          {
+            "$id": "41",
+            "name": "point3y",
+            "value": "320"
+          }
+        ],
+        "relations": [
+          {
+            "$ref": "32"
+          }
+        ]
+      }
+    },
+    {
+      "$id": "42",
+      "type": "water",
+      "verb": null,
+      "parent": {
+        "$ref": "1"
+      },
+      "child": {
+        "$id": "43",
+        "type": "water_area",
+        "parameters": [
+          {
+            "$id": "44",
+            "name": "point0x",
+            "value": "518"
+          },
+          {
+            "$id": "45",
+            "name": "point0y",
+            "value": "179"
+          },
+          {
+            "$id": "46",
+            "name": "point1x",
+            "value": "600"
+          },
+          {
+            "$id": "47",
+            "name": "point1y",
+            "value": "140"
+          },
+          {
+            "$id": "48",
+            "name": "point2x",
+            "value": "600"
+          },
+          {
+            "$id": "49",
+            "name": "point2y",
+            "value": "275"
+          },
+          {
+            "$id": "50",
+            "name": "point3x",
+            "value": "497"
+          },
+          {
+            "$id": "51",
+            "name": "point3y",
+            "value": "282"
+          }
+        ],
+        "relations": [
+          {
+            "$ref": "42"
+          }
+        ]
+      }
+    },
+    {
+      "$id": "52",
+      "type": "parcel",
+      "verb": null,
+      "parent": {
+        "$ref": "1"
+      },
+      "child": {
+        "$id": "53",
+        "type": "parcel_area",
+        "parameters": [
+          {
+            "$id": "54",
+            "name": "point0x",
+            "value": "206"
+          },
+          {
+            "$id": "55",
+            "name": "point0y",
+            "value": "150"
+          },
+          {
+            "$id": "56",
+            "name": "point1x",
+            "value": "266"
+          },
+          {
+            "$id": "57",
+            "name": "point1y",
+            "value": "143"
+          },
+          {
+            "$id": "58",
+            "name": "point2x",
+            "value": "271"
+          },
+          {
+            "$id": "59",
+            "name": "point2y",
+            "value": "194"
+          },
+          {
+            "$id": "60",
+            "name": "point3x",
+            "value": "159"
+          },
+          {
+            "$id": "61",
+            "name": "point3y",
+            "value": "174"
+          }
+        ],
+        "relations": [
+          {
+            "$ref": "52"
+          },
+          {
+            "$id": "62",
+            "type": "building",
+            "verb": null,
+            "parent": {
+              "$ref": "53"
+            },
+            "child": {
+              "$id": "63",
+              "type": "building_area",
+              "parameters": [
+                {
+                  "$id": "64",
+                  "name": "point0x",
+                  "value": "211"
+                },
+                {
+                  "$id": "65",
+                  "name": "point0y",
+                  "value": "167"
+                },
+                {
+                  "$id": "66",
+                  "name": "point1x",
+                  "value": "247"
+                },
+                {
+                  "$id": "67",
+                  "name": "point1y",
+                  "value": "152"
+                },
+                {
+                  "$id": "68",
+                  "name": "point2x",
+                  "value": "239"
+                },
+                {
+                  "$id": "69",
+                  "name": "point2y",
+                  "value": "185"
+                },
+                {
+                  "$id": "70",
+                  "name": "point3x",
+                  "value": "213"
+                },
+                {
+                  "$id": "71",
+                  "name": "point3y",
+                  "value": "180"
+                }
+              ],
+              "relations": [
+                {
+                  "$ref": "62"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "$id": "72",
+      "type": "parcel",
+      "verb": null,
+      "parent": {
+        "$ref": "1"
+      },
+      "child": {
+        "$id": "73",
+        "type": "parcel_area",
+        "parameters": [
+          {
+            "$id": "74",
+            "name": "point0x",
+            "value": "159"
+          },
+          {
+            "$id": "75",
+            "name": "point0y",
+            "value": "174"
+          },
+          {
+            "$id": "76",
+            "name": "point1x",
+            "value": "271"
+          },
+          {
+            "$id": "77",
+            "name": "point1y",
+            "value": "194"
+          },
+          {
+            "$id": "78",
+            "name": "point2x",
+            "value": "277"
+          },
+          {
+            "$id": "79",
+            "name": "point2y",
+            "value": "242"
+          },
+          {
+            "$id": "80",
+            "name": "point3x",
+            "value": "149"
+          },
+          {
+            "$id": "81",
+            "name": "point3y",
+            "value": "254"
+          }
+        ],
+        "relations": [
+          {
+            "$ref": "72"
+          },
+          {
+            "$id": "82",
+            "type": "building",
+            "verb": null,
+            "parent": {
+              "$ref": "73"
+            },
+            "child": {
+              "$id": "83",
+              "type": "building_area",
+              "parameters": [
+                {
+                  "$id": "84",
+                  "name": "point0x",
+                  "value": "176"
+                },
+                {
+                  "$id": "85",
+                  "name": "point0y",
+                  "value": "192"
+                },
+                {
+                  "$id": "86",
+                  "name": "point1x",
+                  "value": "256"
+                },
+                {
+                  "$id": "87",
+                  "name": "point1y",
+                  "value": "209"
+                },
+                {
+                  "$id": "88",
+                  "name": "point2x",
+                  "value": "254"
+                },
+                {
+                  "$id": "89",
+                  "name": "point2y",
+                  "value": "234"
+                },
+                {
+                  "$id": "90",
+                  "name": "point3x",
+                  "value": "170"
+                },
+                {
+                  "$id": "91",
+                  "name": "point3y",
+                  "value": "236"
+                }
+              ],
+              "relations": [
+                {
+                  "$ref": "82"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "$id": "92",
+      "type": "parcel",
+      "verb": null,
+      "parent": {
+        "$ref": "1"
+      },
+      "child": {
+        "$id": "93",
+        "type": "parcel_area",
+        "parameters": [
+          {
+            "$id": "94",
+            "name": "point0x",
+            "value": "266"
+          },
+          {
+            "$id": "95",
+            "name": "point0y",
+            "value": "143"
+          },
+          {
+            "$id": "96",
+            "name": "point1x",
+            "value": "399"
+          },
+          {
+            "$id": "97",
+            "name": "point1y",
+            "value": "77"
+          },
+          {
+            "$id": "98",
+            "name": "point2x",
+            "value": "376"
+          },
+          {
+            "$id": "99",
+            "name": "point2y",
+            "value": "160"
+          },
+          {
+            "$id": "100",
+            "name": "point3x",
+            "value": "271"
+          },
+          {
+            "$id": "101",
+            "name": "point3y",
+            "value": "194"
+          }
+        ],
+        "relations": [
+          {
+            "$ref": "92"
+          },
+          {
+            "$id": "102",
+            "type": "building",
+            "verb": null,
+            "parent": {
+              "$ref": "93"
+            },
+            "child": {
+              "$id": "103",
+              "type": "building_area",
+              "parameters": [
+                {
+                  "$id": "104",
+                  "name": "point0x",
+                  "value": "305"
+                },
+                {
+                  "$id": "105",
+                  "name": "point0y",
+                  "value": "155"
+                },
+                {
+                  "$id": "106",
+                  "name": "point1x",
+                  "value": "377"
+                },
+                {
+                  "$id": "107",
+                  "name": "point1y",
+                  "value": "126"
+                },
+                {
+                  "$id": "108",
+                  "name": "point2x",
+                  "value": "363"
+                },
+                {
+                  "$id": "109",
+                  "name": "point2y",
+                  "value": "155"
+                },
+                {
+                  "$id": "110",
+                  "name": "point3x",
+                  "value": "313"
+                },
+                {
+                  "$id": "111",
+                  "name": "point3y",
+                  "value": "172"
+                }
+              ],
+              "relations": [
+                {
+                  "$ref": "102"
+                },
+                {
+                  "$id": "112",
+                  "type": "resident",
+                  "verb": null,
+                  "parent": {
+                    "$ref": "103"
+                  },
+                  "child": {
+                    "$id": "113",
+                    "type": "person",
+                    "parameters": [
+                      {
+                        "$id": "114",
+                        "name": "Imie",
+                        "value": "Jan"
+                      },
+                      {
+                        "$id": "115",
+                        "name": "Zawod",
+                        "value": "Kowal"
+                      }
+                    ],
+                    "relations": [
+                      {
+                        "$ref": "112"
+                      },
+                      {
+                        "$id": "116",
+                        "type": "crush",
+                        "verb": "podkochuje sie w",
+                        "parent": {
+                          "$ref": "113"
+                        },
+                        "child": {
+                          "$id": "117",
+                          "type": "person",
+                          "parameters": [
+                            {
+                              "$id": "118",
+                              "name": "Imie",
+                              "value": "Julia"
+                            },
+                            {
+                              "$id": "119",
+                              "name": "Zawod",
+                              "value": "Szwacz"
+                            }
+                          ],
+                          "relations": [
+                            {
+                              "$ref": "116"
+                            },
+                            {
+                              "$id": "120",
+                              "type": "resident",
+                              "verb": null,
+                              "parent": {
+                                "$id": "121",
+                                "type": "building_area",
+                                "parameters": [
+                                  {
+                                    "$id": "122",
+                                    "name": "point0x",
+                                    "value": "353"
+                                  },
+                                  {
+                                    "$id": "123",
+                                    "name": "point0y",
+                                    "value": "178"
+                                  },
+                                  {
+                                    "$id": "124",
+                                    "name": "point1x",
+                                    "value": "377"
+                                  },
+                                  {
+                                    "$id": "125",
+                                    "name": "point1y",
+                                    "value": "190"
+                                  },
+                                  {
+                                    "$id": "126",
+                                    "name": "point2x",
+                                    "value": "390"
+                                  },
+                                  {
+                                    "$id": "127",
+                                    "name": "point2y",
+                                    "value": "224"
+                                  },
+                                  {
+                                    "$id": "128",
+                                    "name": "point3x",
+                                    "value": "299"
+                                  },
+                                  {
+                                    "$id": "129",
+                                    "name": "point3y",
+                                    "value": "210"
+                                  }
+                                ],
+                                "relations": [
+                                  {
+                                    "$ref": "120"
+                                  },
+                                  {
+                                    "$id": "130",
+                                    "type": "building",
+                                    "verb": null,
+                                    "parent": {
+                                      "$id": "131",
+                                      "type": "parcel_area",
+                                      "parameters": [
+                                        {
+                                          "$id": "132",
+                                          "name": "point0x",
+                                          "value": "271"
+                                        },
+                                        {
+                                          "$id": "133",
+                                          "name": "point0y",
+                                          "value": "194"
+                                        },
+                                        {
+                                          "$id": "134",
+                                          "name": "point1x",
+                                          "value": "376"
+                                        },
+                                        {
+                                          "$id": "135",
+                                          "name": "point1y",
+                                          "value": "160"
+                                        },
+                                        {
+                                          "$id": "136",
+                                          "name": "point2x",
+                                          "value": "408"
+                                        },
+                                        {
+                                          "$id": "137",
+                                          "name": "point2y",
+                                          "value": "232"
+                                        },
+                                        {
+                                          "$id": "138",
+                                          "name": "point3x",
+                                          "value": "277"
+                                        },
+                                        {
+                                          "$id": "139",
+                                          "name": "point3y",
+                                          "value": "242"
+                                        }
+                                      ],
+                                      "relations": [
+                                        {
+                                          "$id": "140",
+                                          "type": "parcel",
+                                          "verb": null,
+                                          "parent": {
+                                            "$ref": "1"
+                                          },
+                                          "child": {
+                                            "$ref": "131"
+                                          }
+                                        },
+                                        {
+                                          "$ref": "130"
+                                        }
+                                      ]
+                                    },
+                                    "child": {
+                                      "$ref": "121"
+                                    }
+                                  }
+                                ]
+                              },
+                              "child": {
+                                "$ref": "117"
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "$ref": "140"
+    },
+    {
+      "$id": "141",
+      "type": "street",
+      "verb": null,
+      "parent": {
+        "$ref": "1"
+      },
+      "child": {
+        "$id": "142",
+        "type": "line",
+        "parameters": [
+          {
+            "$id": "143",
+            "name": "point0x",
+            "value": "159"
+          },
+          {
+            "$id": "144",
+            "name": "point1x",
+            "value": "206"
+          },
+          {
+            "$id": "145",
+            "name": "point2x",
+            "value": "266"
+          },
+          {
+            "$id": "146",
+            "name": "point3x",
+            "value": "271"
+          },
+          {
+            "$id": "147",
+            "name": "point4x",
+            "value": "277"
+          },
+          {
+            "$id": "148",
+            "name": "point5x",
+            "value": "285"
+          },
+          {
+            "$id": "149",
+            "name": "point6x",
+            "value": "294"
+          },
+          {
+            "$id": "150",
+            "name": "point0y",
+            "value": "174"
+          },
+          {
+            "$id": "151",
+            "name": "point1y",
+            "value": "150"
+          },
+          {
+            "$id": "152",
+            "name": "point2y",
+            "value": "143"
+          },
+          {
+            "$id": "153",
+            "name": "point3y",
+            "value": "194"
+          },
+          {
+            "$id": "154",
+            "name": "point4y",
+            "value": "242"
+          },
+          {
+            "$id": "155",
+            "name": "point5y",
+            "value": "330"
+          },
+          {
+            "$id": "156",
+            "name": "point6y",
+            "value": "422"
+          }
+        ],
+        "relations": [
+          {
+            "$ref": "141"
+          }
+        ]
+      }
+    },
+    {
+      "$id": "157",
+      "type": "street",
+      "verb": null,
+      "parent": {
+        "$ref": "1"
+      },
+      "child": {
+        "$id": "158",
+        "type": "line",
+        "parameters": [
+          {
+            "$id": "159",
+            "name": "point0x",
+            "value": "266"
+          },
+          {
+            "$id": "160",
+            "name": "point1x",
+            "value": "399"
+          },
+          {
+            "$id": "161",
+            "name": "point0y",
+            "value": "143"
+          },
+          {
+            "$id": "162",
+            "name": "point1y",
+            "value": "77"
+          }
+        ],
+        "relations": [
+          {
+            "$ref": "157"
+          }
+        ]
+      }
+    },
+    {
+      "$id": "163",
+      "type": "street",
+      "verb": null,
+      "parent": {
+        "$ref": "1"
+      },
+      "child": {
+        "$id": "164",
+        "type": "line",
+        "parameters": [
+          {
+            "$id": "165",
+            "name": "point0x",
+            "value": "376"
+          },
+          {
+            "$id": "166",
+            "name": "point1x",
+            "value": "390"
+          },
+          {
+            "$id": "167",
+            "name": "point0y",
+            "value": "160"
+          },
+          {
+            "$id": "168",
+            "name": "point1y",
+            "value": "195"
+          }
+        ],
+        "relations": [
+          {
+            "$ref": "163"
+          }
+        ]
+      }
+    }
+  ]
+}

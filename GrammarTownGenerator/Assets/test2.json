@@ -1,0 +1,655 @@
+{
+  "$id": "1",
+  "parameters": {
+    "$id": "2",
+    "type": "town",
+    "name": "Testopolis"
+  },
+  "relations": [
+    {
+      "$id": "3",
+      "parameters": {
+        "$id": "4",
+        "type": "river",
+        "text": "$child$ przeplywa przez $parent$"
+      },
+      "relationObjects": {
+        "$id": "5",
+        "parent": {
+          "$ref": "1"
+        },
+        "child": {
+          "$id": "6",
+          "parameters": {
+            "$id": "7",
+            "type": "river",
+            "name": "Testowianka"
+          },
+          "relations": [
+            {
+              "$ref": "3"
+            },
+            {
+              "$id": "8",
+              "parameters": {
+                "$id": "9",
+                "type": "water"
+              },
+              "relationObjects": {
+                "$id": "10",
+                "parent": {
+                  "$ref": "6"
+                },
+                "child": {
+                  "$id": "11",
+                  "parameters": {
+                    "$id": "12",
+                    "type": "water_area",
+                    "point0x": "0",
+                    "point0y": "300",
+                    "point1x": "149",
+                    "point1y": "254",
+                    "point2x": "160",
+                    "point2y": "340",
+                    "point3x": "0",
+                    "point3y": "370"
+                  },
+                  "relations": [
+                    {
+                      "$ref": "8"
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "$id": "13",
+              "parameters": {
+                "$id": "14",
+                "type": "water"
+              },
+              "relationObjects": {
+                "$id": "15",
+                "parent": {
+                  "$ref": "6"
+                },
+                "child": {
+                  "$id": "16",
+                  "parameters": {
+                    "$id": "17",
+                    "type": "water_area",
+                    "point0x": "149",
+                    "point0y": "254",
+                    "point1x": "277",
+                    "point1y": "242",
+                    "point2x": "285",
+                    "point2y": "330",
+                    "point3x": "160",
+                    "point3y": "340"
+                  },
+                  "relations": [
+                    {
+                      "$ref": "13"
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "$id": "18",
+              "parameters": {
+                "$id": "19",
+                "type": "water"
+              },
+              "relationObjects": {
+                "$id": "20",
+                "parent": {
+                  "$ref": "6"
+                },
+                "child": {
+                  "$id": "21",
+                  "parameters": {
+                    "$id": "22",
+                    "type": "water_area",
+                    "point0x": "277",
+                    "point0y": "242",
+                    "point1x": "408",
+                    "point1y": "232",
+                    "point2x": "420",
+                    "point2y": "320",
+                    "point3x": "285",
+                    "point3y": "330"
+                  },
+                  "relations": [
+                    {
+                      "$ref": "18"
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "$id": "23",
+              "parameters": {
+                "$id": "24",
+                "type": "water"
+              },
+              "relationObjects": {
+                "$id": "25",
+                "parent": {
+                  "$ref": "6"
+                },
+                "child": {
+                  "$id": "26",
+                  "parameters": {
+                    "$id": "27",
+                    "type": "water_area",
+                    "point0x": "408",
+                    "point0y": "232",
+                    "point1x": "518",
+                    "point1y": "179",
+                    "point2x": "497",
+                    "point2y": "282",
+                    "point3x": "420",
+                    "point3y": "320"
+                  },
+                  "relations": [
+                    {
+                      "$ref": "23"
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "$id": "28",
+              "parameters": {
+                "$id": "29",
+                "type": "water"
+              },
+              "relationObjects": {
+                "$id": "30",
+                "parent": {
+                  "$ref": "6"
+                },
+                "child": {
+                  "$id": "31",
+                  "parameters": {
+                    "$id": "32",
+                    "type": "water_area",
+                    "point0x": "518",
+                    "point0y": "179",
+                    "point1x": "600",
+                    "point1y": "140",
+                    "point2x": "600",
+                    "point2y": "275",
+                    "point3x": "497",
+                    "point3y": "282"
+                  },
+                  "relations": [
+                    {
+                      "$ref": "28"
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "$id": "33",
+      "parameters": {
+        "$id": "34",
+        "type": "parcel",
+        "text": "$child$ zawiera sie w $parent$"
+      },
+      "relationObjects": {
+        "$id": "35",
+        "parent": {
+          "$ref": "1"
+        },
+        "child": {
+          "$id": "36",
+          "parameters": {
+            "$id": "37",
+            "type": "parcel_area",
+            "name": "Parcela",
+            "point0x": "206",
+            "point0y": "150",
+            "point1x": "266",
+            "point1y": "143",
+            "point2x": "271",
+            "point2y": "194",
+            "point3x": "159",
+            "point3y": "174"
+          },
+          "relations": [
+            {
+              "$ref": "33"
+            },
+            {
+              "$id": "38",
+              "parameters": {
+                "$id": "39",
+                "type": "building",
+                "text": "$parent$ zawiera $child$"
+              },
+              "relationObjects": {
+                "$id": "40",
+                "parent": {
+                  "$ref": "36"
+                },
+                "child": {
+                  "$id": "41",
+                  "parameters": {
+                    "$id": "42",
+                    "type": "building_area",
+                    "name": "Budynek",
+                    "point0x": "211",
+                    "point0y": "167",
+                    "point1x": "247",
+                    "point1y": "152",
+                    "point2x": "239",
+                    "point2y": "185",
+                    "point3x": "213",
+                    "point3y": "180"
+                  },
+                  "relations": [
+                    {
+                      "$ref": "38"
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "$id": "43",
+      "parameters": {
+        "$id": "44",
+        "type": "parcel",
+        "text": "$child$ zawiera sie w $parent$"
+      },
+      "relationObjects": {
+        "$id": "45",
+        "parent": {
+          "$ref": "1"
+        },
+        "child": {
+          "$id": "46",
+          "parameters": {
+            "$id": "47",
+            "type": "parcel_area",
+            "name": "Parcela",
+            "point0x": "159",
+            "point0y": "174",
+            "point1x": "271",
+            "point1y": "194",
+            "point2x": "277",
+            "point2y": "242",
+            "point3x": "149",
+            "point3y": "254"
+          },
+          "relations": [
+            {
+              "$ref": "43"
+            },
+            {
+              "$id": "48",
+              "parameters": {
+                "$id": "49",
+                "type": "building",
+                "text": "$parent$ zawiera $child$"
+              },
+              "relationObjects": {
+                "$id": "50",
+                "parent": {
+                  "$ref": "46"
+                },
+                "child": {
+                  "$id": "51",
+                  "parameters": {
+                    "$id": "52",
+                    "type": "building_area",
+                    "name": "Budynek",
+                    "point0x": "176",
+                    "point0y": "192",
+                    "point1x": "256",
+                    "point1y": "209",
+                    "point2x": "254",
+                    "point2y": "234",
+                    "point3x": "170",
+                    "point3y": "236"
+                  },
+                  "relations": [
+                    {
+                      "$ref": "48"
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "$id": "53",
+      "parameters": {
+        "$id": "54",
+        "type": "parcel",
+        "text": "$child$ zawiera sie w $parent$"
+      },
+      "relationObjects": {
+        "$id": "55",
+        "parent": {
+          "$ref": "1"
+        },
+        "child": {
+          "$id": "56",
+          "parameters": {
+            "$id": "57",
+            "type": "parcel_area",
+            "name": "Parcela",
+            "point0x": "266",
+            "point0y": "143",
+            "point1x": "399",
+            "point1y": "77",
+            "point2x": "376",
+            "point2y": "160",
+            "point3x": "271",
+            "point3y": "194"
+          },
+          "relations": [
+            {
+              "$ref": "53"
+            },
+            {
+              "$id": "58",
+              "parameters": {
+                "$id": "59",
+                "type": "building",
+                "text": "$parent$ zawiera $child$"
+              },
+              "relationObjects": {
+                "$id": "60",
+                "parent": {
+                  "$ref": "56"
+                },
+                "child": {
+                  "$id": "61",
+                  "parameters": {
+                    "$id": "62",
+                    "type": "building_area",
+                    "name": "Budynek",
+                    "point0x": "305",
+                    "point0y": "145",
+                    "point1x": "377",
+                    "point1y": "113",
+                    "point2x": "363",
+                    "point2y": "155",
+                    "point3x": "313",
+                    "point3y": "172"
+                  },
+                  "relations": [
+                    {
+                      "$ref": "58"
+                    },
+                    {
+                      "$id": "63",
+                      "parameters": {
+                        "$id": "64",
+                        "type": "resident",
+                        "text": "$child$ mieszka w $parent$"
+                      },
+                      "relationObjects": {
+                        "$id": "65",
+                        "parent": {
+                          "$ref": "61"
+                        },
+                        "child": {
+                          "$id": "66",
+                          "parameters": {
+                            "$id": "67",
+                            "type": "person",
+                            "name": "Jan",
+                            "Zawod": "Kowal"
+                          },
+                          "relations": [
+                            {
+                              "$ref": "63"
+                            },
+                            {
+                              "$id": "68",
+                              "parameters": {
+                                "$id": "69",
+                                "type": "crush",
+                                "text": "$parent$ podkochuje sie w $child$"
+                              },
+                              "relationObjects": {
+                                "$id": "70",
+                                "parent": {
+                                  "$ref": "66"
+                                },
+                                "child": {
+                                  "$id": "71",
+                                  "parameters": {
+                                    "$id": "72",
+                                    "type": "person",
+                                    "name": "Julia",
+                                    "Zawod": "Szwacz"
+                                  },
+                                  "relations": [
+                                    {
+                                      "$ref": "68"
+                                    },
+                                    {
+                                      "$id": "73",
+                                      "parameters": {
+                                        "$id": "74",
+                                        "type": "resident",
+                                        "text": "$child$ mieszka w $parent$"
+                                      },
+                                      "relationObjects": {
+                                        "$id": "75",
+                                        "parent": {
+                                          "$id": "76",
+                                          "parameters": {
+                                            "$id": "77",
+                                            "type": "building_area",
+                                            "name": "Budynek",
+                                            "point0x": "353",
+                                            "point0y": "178",
+                                            "point1x": "377",
+                                            "point1y": "190",
+                                            "point2x": "390",
+                                            "point2y": "224",
+                                            "point3x": "299",
+                                            "point3y": "210"
+                                          },
+                                          "relations": [
+                                            {
+                                              "$ref": "73"
+                                            },
+                                            {
+                                              "$id": "78",
+                                              "parameters": {
+                                                "$id": "79",
+                                                "type": "building",
+                                                "text": "$parent$ zawiera $child$"
+                                              },
+                                              "relationObjects": {
+                                                "$id": "80",
+                                                "parent": {
+                                                  "$id": "81",
+                                                  "parameters": {
+                                                    "$id": "82",
+                                                    "type": "parcel_area",
+                                                    "name": "Parcela",
+                                                    "point0x": "271",
+                                                    "point0y": "194",
+                                                    "point1x": "376",
+                                                    "point1y": "160",
+                                                    "point2x": "408",
+                                                    "point2y": "232",
+                                                    "point3x": "277",
+                                                    "point3y": "242"
+                                                  },
+                                                  "relations": [
+                                                    {
+                                                      "$id": "83",
+                                                      "parameters": {
+                                                        "$id": "84",
+                                                        "type": "parcel",
+                                                        "text": "$child$ zawiera sie w $parent$"
+                                                      },
+                                                      "relationObjects": {
+                                                        "$id": "85",
+                                                        "parent": {
+                                                          "$ref": "1"
+                                                        },
+                                                        "child": {
+                                                          "$ref": "81"
+                                                        }
+                                                      }
+                                                    },
+                                                    {
+                                                      "$ref": "78"
+                                                    }
+                                                  ]
+                                                },
+                                                "child": {
+                                                  "$ref": "76"
+                                                }
+                                              }
+                                            }
+                                          ]
+                                        },
+                                        "child": {
+                                          "$ref": "71"
+                                        }
+                                      }
+                                    }
+                                  ]
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "$ref": "83"
+    },
+    {
+      "$id": "86",
+      "parameters": {
+        "$id": "87",
+        "type": "street"
+      },
+      "relationObjects": {
+        "$id": "88",
+        "parent": {
+          "$ref": "1"
+        },
+        "child": {
+          "$id": "89",
+          "parameters": {
+            "$id": "90",
+            "type": "line",
+            "point0x": "159",
+            "point1x": "206",
+            "point2x": "266",
+            "point3x": "271",
+            "point4x": "277",
+            "point5x": "285",
+            "point6x": "294",
+            "point0y": "174",
+            "point1y": "150",
+            "point2y": "143",
+            "point3y": "194",
+            "point4y": "242",
+            "point5y": "330",
+            "point6y": "422"
+          },
+          "relations": [
+            {
+              "$ref": "86"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "$id": "91",
+      "parameters": {
+        "$id": "92",
+        "type": "street"
+      },
+      "relationObjects": {
+        "$id": "93",
+        "parent": {
+          "$ref": "1"
+        },
+        "child": {
+          "$id": "94",
+          "parameters": {
+            "$id": "95",
+            "type": "line",
+            "point0x": "266",
+            "point1x": "399",
+            "point0y": "143",
+            "point1y": "77"
+          },
+          "relations": [
+            {
+              "$ref": "91"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "$id": "96",
+      "parameters": {
+        "$id": "97",
+        "type": "street"
+      },
+      "relationObjects": {
+        "$id": "98",
+        "parent": {
+          "$ref": "1"
+        },
+        "child": {
+          "$id": "99",
+          "parameters": {
+            "$id": "100",
+            "type": "line",
+            "point0x": "376",
+            "point1x": "390",
+            "point0y": "160",
+            "point1y": "195"
+          },
+          "relations": [
+            {
+              "$ref": "96"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
