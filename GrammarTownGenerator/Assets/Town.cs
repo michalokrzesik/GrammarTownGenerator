@@ -12,9 +12,7 @@ public class Town : MonoBehaviour
     void loadJSON(string[] paths)
     {
         string path = paths[0];
-
-        StreamReader streamReader = new StreamReader(path);
-        town = JsonConvert.DeserializeObject<GeneratorObject>(streamReader.ReadToEnd(), new JsonSerializerSettings
+        town = JsonConvert.DeserializeObject<GeneratorObject>(File.ReadAllText(path), new JsonSerializerSettings
         {
             PreserveReferencesHandling = PreserveReferencesHandling.Objects
         });
