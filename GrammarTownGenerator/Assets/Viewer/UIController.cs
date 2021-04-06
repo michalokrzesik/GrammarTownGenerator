@@ -13,6 +13,10 @@ namespace Viewer
 
         private List<GameObject> objects = new List<GameObject>();
 
+        public void Log(string log)
+        {
+            name_text.text = log;
+        }
         public void Clear()
         {
             name_text.text = "";

@@ -33,7 +33,10 @@ namespace Viewer
             newObject.AddComponent<AreaView>().setObjects(generatorObject, GetComponent<UIController>());
 
             if (edges)
-                drawLine(generatorObject, Color.grey, true, 0.02f);
+            {
+                Color edgeColor = (color == Color.green ? Color.grey : color);
+                drawLine(generatorObject, edgeColor, true, 0.02f);
+            }
 
             return newObject;
         }
@@ -62,6 +65,8 @@ namespace Viewer
 
         public void drawObject(GeneratorObject generatorObject)
         {
+            Viewer.UIController controller = GetComponent<Viewer.UIController>();
+            controller.Log(generatorObject.getName());
             if (scale == 0) setScale();
             if (generatorObject.isDrawn()) return;
             generatorObject.setAsDrawn();
@@ -73,13 +78,13 @@ namespace Viewer
                 case "river":
                     break;
                 case "water_area":
-                    drawArea(generatorObject, Color.blue);
+                    drawArea(generatorObject, Color.blue, parcelEdges);
                     break;
                 case "parcel_area":
                     drawArea(generatorObject, Color.green, parcelEdges).GetComponent<AreaView>().setInteractable(true);
                     break;
                 case "building_area":
-                    drawArea(generatorObject, Color.black).GetComponent<AreaView>().setInteractable(true);
+                    drawArea(generatorObject, Color.black, parcelEdges).GetComponent<AreaView>().setInteractable(true);
                     break;
                 case "line":
                     drawLine(generatorObject,Color.black);
