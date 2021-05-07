@@ -268,6 +268,12 @@
     <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
       <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/16.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
+    <Reference Include="NugetForUnity">
+      <HintPath>C:/Users/User/GrammarTownGenerator/GrammarTownGenerator/Assets/NuGet/Editor/NugetForUnity.dll</HintPath>
+    </Reference>
+    <Reference Include="Flee.NetStandard20">
+      <HintPath>C:/Users/User/GrammarTownGenerator/GrammarTownGenerator/Assets/Plugins/Flee/Flee.NetStandard20.dll</HintPath>
+    </Reference>
     <Reference Include="NSubstitute">
       <HintPath>C:/Users/User/GrammarTownGenerator/GrammarTownGenerator/Library/PackageCache/com.unity.2d.common@1.2.0-preview.1/Tests/Editor/Lib/NSubstitute/NSubstitute.dll</HintPath>
     </Reference>

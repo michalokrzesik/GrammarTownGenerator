@@ -43,16 +43,23 @@ public class Town : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-    /*    string[] paths =
-        {
-            @"Assets/próbny plan miasta.json"
-        };
-        loadJSON(paths);
+        
+        Flee.CalcEngine.PublicTypes.CalculationEngine test = new Flee.CalcEngine.PublicTypes.CalculationEngine();
+        Flee.PublicTypes.ExpressionContext context = new Flee.PublicTypes.ExpressionContext(this);
+        context.Imports.AddType(typeof(System.Math));
+        context.Imports.AddType(typeof(UnityEngine.Random));
+        test.Add("test", "Range(0,1f;10)", context);
+        Debug.Log(test.GetResult("test"));
+        /*    string[] paths =
+            {
+                @"Assets/próbny plan miasta.json"
+            };
+            loadJSON(paths);
 
-        Debug.Log(town.toString());
+            Debug.Log(town.toString());
 
-        saveJSON(@"Assets/test2.json");
-        */
+            saveJSON(@"Assets/test2.json");
+            */
     }
 
     // Update is called once per frame

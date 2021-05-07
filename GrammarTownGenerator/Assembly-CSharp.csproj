@@ -66,11 +66,21 @@
     <Compile Include="Assets\ExitGame.cs" />
     <Compile Include="Assets\GeneratorObject.cs" />
     <Compile Include="Assets\Relation.cs" />
+    <Compile Include="Assets\Rule\LogicCondition.cs" />
+    <Compile Include="Assets\Rule\Rule.cs" />
+    <Compile Include="Assets\Rule\RuleCondition.cs" />
+    <Compile Include="Assets\Rule\RuleObject.cs" />
+    <Compile Include="Assets\Rule\RuleRelation.cs" />
+    <Compile Include="Assets\RuleReader\FSM\FiniteStateMachine.cs" />
+    <Compile Include="Assets\RuleReader\FSM\State.cs" />
+    <Compile Include="Assets\RuleReader\FSM\StateChange.cs" />
+    <Compile Include="Assets\RuleReader\RuleFactory.cs" />
     <Compile Include="Assets\Town.cs" />
     <Compile Include="Assets\Viewer\AreaView.cs" />
     <Compile Include="Assets\Viewer\HyperLink.cs" />
     <Compile Include="Assets\Viewer\TownViewer.cs" />
     <Compile Include="Assets\Viewer\UIController.cs" />
+    <None Include="Assets\link.xml" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:/Users/User/GrammarTownGenerator/GrammarTownGenerator/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
@@ -307,6 +317,9 @@
     </Reference>
     <Reference Include="UnityEngine.XRModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.2.17f1/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Flee.NetStandard20">
+      <HintPath>C:/Users/User/GrammarTownGenerator/GrammarTownGenerator/Assets/Plugins/Flee/Flee.NetStandard20.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json">
       <HintPath>C:/Users/User/GrammarTownGenerator/GrammarTownGenerator/Library/PackageCache/jillejr.newtonsoft.json-for-unity@13.0.102/Plugins/Newtonsoft.Json Editor/Newtonsoft.Json.dll</HintPath>
